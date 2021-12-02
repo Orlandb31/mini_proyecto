@@ -111,11 +111,11 @@ Partial Class frmdividir
         '
         Me.mensaje.AutoSize = True
         Me.mensaje.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mensaje.ForeColor = System.Drawing.Color.Red
         Me.mensaje.Location = New System.Drawing.Point(212, 388)
         Me.mensaje.Name = "mensaje"
-        Me.mensaje.Size = New System.Drawing.Size(23, 25)
+        Me.mensaje.Size = New System.Drawing.Size(0, 25)
         Me.mensaje.TabIndex = 8
-        Me.mensaje.Text = "a"
         '
         'frmdividir
         '

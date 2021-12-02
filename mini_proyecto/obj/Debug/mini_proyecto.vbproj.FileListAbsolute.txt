@@ -25,3 +25,7 @@ C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.
 C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
 C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmsuma.resources
 C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmdividir.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmencontrar.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CopyComplete

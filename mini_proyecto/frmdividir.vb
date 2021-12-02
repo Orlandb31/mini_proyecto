@@ -11,7 +11,6 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim nume1 As Integer
         Dim nume2 As Integer
-
         nume1 = Val(numero1.Text)
         nume2 = Val(numero2.Text)
         If nume1 <= 0 And nume2 <= 0 Then
@@ -30,6 +29,10 @@
 
 
 
+
+    End Sub
+
+    Private Sub frmdividir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

@@ -1,4 +1,4 @@
-﻿Imports Newtonsoft.Json
+﻿
 Public Class frmsuma
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
 
