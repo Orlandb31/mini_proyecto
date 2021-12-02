@@ -11,3 +11,17 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\mini_proyecto\
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe.config
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.pdb
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.xml
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Form1.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Resources.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmsuma.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmdividir.resources

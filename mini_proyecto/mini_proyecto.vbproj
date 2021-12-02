@@ -52,6 +52,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -73,11 +75,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\DemoWS\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdividir.Designer.vb">
+      <DependentUpon>frmdividir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmdividir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmencontrar.Designer.vb">
+      <DependentUpon>frmencontrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmencontrar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsuma.Designer.vb">
+      <DependentUpon>frmsuma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsuma.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,6 +125,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmdividir.resx">
+      <DependentUpon>frmdividir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsuma.resx">
+      <DependentUpon>frmsuma.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -108,16 +139,53 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\DemoWS\ByNameDataSet.xsd" />
+    <None Include="Connected Services\DemoWS\mini_proyecto.DemoWS.Address.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DemoWS\mini_proyecto.DemoWS.ByNameDataSet.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DemoWS\mini_proyecto.DemoWS.Person.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DemoWS\mini_proyecto.DemoWS.PersonIdentification.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DemoWS\mini_proyecto.DemoWS.QueryByName_DataSet.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DemoWS\QueryByName_DataSet.xsd" />
+    <None Include="Connected Services\DemoWS\SOAP.wsdl" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\System.Data.DataSet.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\DemoWS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DemoWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

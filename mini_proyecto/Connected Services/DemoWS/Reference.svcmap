@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="963000cb-0f4d-4809-91ad-b6aef890669d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL=1" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ByNameDataSet.xsd" MetadataType="Schema" ID="30076ee8-0f38-496d-83f8-00c26beacc40" SourceId="1" SourceUrl="https://www.crcind.com/csp/samples/SOAP.ByNameDataSet.cls?XSD" />
+    <MetadataFile FileName="SOAP.wsdl" MetadataType="Wsdl" ID="e3397387-0929-492f-952d-608bd6f43865" SourceId="1" SourceUrl="https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL=1" />
+    <MetadataFile FileName="QueryByName_DataSet.xsd" MetadataType="Schema" ID="4be408f5-23c6-4fd5-89ad-309114748276" SourceId="1" SourceUrl="https://www.crcind.com/csp/samples/SOAP.Demo.QueryByName.DS.cls?XSD" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

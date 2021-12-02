@@ -22,5 +22,129 @@ mini_proyecto
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:mini_proyecto.DemoWS.Person">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.Name">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.SSN">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.DOB">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.DOBSpecified">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.Home">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.Office">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.Spouse">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.FavoriteColors">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.Age">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Person.AgeSpecified">
+<remarks/>
+</member>
+<member name="T:mini_proyecto.DemoWS.Address">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Address.Street">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Address.City">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Address.State">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Address.Zip">
+<remarks/>
+</member>
+<member name="T:mini_proyecto.DemoWS.PersonIdentification">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.PersonIdentification.ID">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.PersonIdentification.Name">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.PersonIdentification.SSN">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.PersonIdentification.DOB">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.PersonIdentification.DOBSpecified">
+<remarks/>
+</member>
+<member name="T:mini_proyecto.DemoWS.Employee">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Employee.Title">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Employee.Salary">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Employee.SalarySpecified">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Employee.Notes">
+<remarks/>
+</member>
+<member name="P:mini_proyecto.DemoWS.Employee.Picture">
+<remarks/>
+</member>
+<member name="T:mini_proyecto.DemoWS.ByNameDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.ByNameDataSet.ByNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.ByNameDataSet.ByNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.ByNameDataSet.ByNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.QueryByName_DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.QueryByName_DataSet.QueryByNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.QueryByName_DataSet.QueryByNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:mini_proyecto.DemoWS.QueryByName_DataSet.QueryByNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 </members>
 </doc>
