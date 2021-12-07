@@ -85,7 +85,7 @@ Namespace DemoWS
     
     '''<remarks/>
     <System.Xml.Serialization.XmlIncludeAttribute(GetType(Employee)),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0"),  _
+     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0"),  _
      System.SerializableAttribute(),  _
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
@@ -246,7 +246,7 @@ Namespace DemoWS
     End Class
     
     '''<remarks/>
-    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0"),  _
+    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0"),  _
      System.SerializableAttribute(),  _
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
@@ -322,7 +322,7 @@ Namespace DemoWS
     End Class
     
     '''<remarks/>
-    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0"),  _
+    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0"),  _
      System.SerializableAttribute(),  _
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
@@ -412,7 +412,7 @@ Namespace DemoWS
     End Class
     
     '''<remarks/>
-    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0"),  _
+    <System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0"),  _
      System.SerializableAttribute(),  _
      System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.ComponentModel.DesignerCategoryAttribute("code"),  _
@@ -501,7 +501,7 @@ Namespace DemoWS
      Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema"),  _
      Global.System.Xml.Serialization.XmlRootAttribute("ByNameDataSet"),  _
      Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet"),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")>  _
+     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")>  _
     Partial Public Class ByNameDataSet
         Inherits Global.System.Data.DataSet
         
@@ -1210,7 +1210,7 @@ Namespace DemoWS
      Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema"),  _
      Global.System.Xml.Serialization.XmlRootAttribute("QueryByName_DataSet"),  _
      Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet"),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")>  _
+     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.3056.0")>  _
     Partial Public Class QueryByName_DataSet
         Inherits Global.System.Data.DataSet
         

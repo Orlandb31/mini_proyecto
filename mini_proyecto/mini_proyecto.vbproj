@@ -102,6 +102,12 @@
     <Compile Include="frmencontrar.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmLookupcity.Designer.vb">
+      <DependentUpon>FrmLookupcity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLookupcity.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmsuma.Designer.vb">
       <DependentUpon>frmsuma.vb</DependentUpon>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmencontrar.resx">
       <DependentUpon>frmencontrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLookupcity.resx">
+      <DependentUpon>FrmLookupcity.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmsuma.resx">
       <DependentUpon>frmsuma.vb</DependentUpon>

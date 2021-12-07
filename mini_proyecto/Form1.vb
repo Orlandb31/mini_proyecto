@@ -32,4 +32,12 @@
         Label1.Hide()
         Label2.Hide()
     End Sub
+
+    Private Sub LookupCityToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LookupCityToolStripMenuItem.Click
+        FrmLookupcity.MdiParent = Me
+        FrmLookupcity.WindowState = FormWindowState.Maximized
+        FrmLookupcity.Show()
+        Label1.Hide()
+        Label2.Hide()
+    End Sub
 End Class
