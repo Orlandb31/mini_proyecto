@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<s:schema xmlns="http://tempuri.org/QueryByName_DataSet" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/QueryByName_DataSet" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/QueryByName_DataSet" id="QueryByName_DataSet" xmlns:s="http://www.w3.org/2001/XMLSchema">
+<s:schema xmlns:mstns="http://tempuri.org/QueryByName_DataSet" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="http://tempuri.org/QueryByName_DataSet" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/QueryByName_DataSet" id="QueryByName_DataSet" xmlns:s="http://www.w3.org/2001/XMLSchema">
   <s:element msdata:IsDataSet="true" name="QueryByName_DataSet">
     <s:complexType>
       <s:choice maxOccurs="unbounded">
