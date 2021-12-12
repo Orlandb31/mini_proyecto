@@ -120,6 +120,12 @@
     <Compile Include="frmsuma.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmGetListByName.Designer.vb">
+      <DependentUpon>frmGetListByName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetListByName.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

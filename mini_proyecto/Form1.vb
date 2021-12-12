@@ -41,10 +41,10 @@
         Label2.Hide()
     End Sub
 
-    Private Sub GetDataSetByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GetDataSetByNameToolStripMenuItem.Click
-        frmPorNombre.MdiParent = Me
-        frmPorNombre.WindowState = FormWindowState.Maximized
-        frmPorNombre.Show()
+    Private Sub GetListByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GetListByNameToolStripMenuItem.Click
+        frmGetListByName.MdiParent = Me
+        frmGetListByName.WindowState = FormWindowState.Maximized
+        frmGetListByName.Show()
         Label1.Hide()
         Label2.Hide()
     End Sub
