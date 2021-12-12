@@ -4,11 +4,13 @@ Public Class frmPorNombre
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
         Dim nombre As String
         Dim ds As New DataSet
-
+        Dim result As Object
         nombre = Val(txtNombre.Text)
 
-        ds = Servicios.GetDataSetByName(nombre)
+        result = Servicios.GetDataSetByName(nombre)
 
+        ds = Servicios.GetDataSetByName(nombre)
+        '' ds = result.
         If ds Is Nothing Then
             MsgBox("la base de datos no se ha creado")
         Else
