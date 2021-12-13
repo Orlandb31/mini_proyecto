@@ -114,6 +114,12 @@
     <Compile Include="frmPorNombre.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmresulperson.Designer.vb">
+      <DependentUpon>frmresulperson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmresulperson.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmsuma.Designer.vb">
       <DependentUpon>frmsuma.vb</DependentUpon>
     </Compile>
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPorNombre.resx">
       <DependentUpon>frmPorNombre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmresulperson.resx">
+      <DependentUpon>frmresulperson.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmsuma.resx">
       <DependentUpon>frmsuma.vb</DependentUpon>
