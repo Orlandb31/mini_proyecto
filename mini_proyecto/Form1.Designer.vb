@@ -113,7 +113,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"

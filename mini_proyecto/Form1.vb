@@ -14,6 +14,8 @@
         frmsuma.Show()
         Label1.Hide()
         Label2.Hide()
+        FrmLookupcity.Close()
+        frmencontrar.Close()
 
     End Sub
 
@@ -24,6 +26,7 @@
         frmencontrar.Show()
         Label1.Hide()
         Label2.Hide()
+        FrmLookupcity.Close()
 
     End Sub
 
@@ -34,6 +37,8 @@
         frmdividir.Show()
         Label1.Hide()
         Label2.Hide()
+        frmencontrar.Close()
+        FrmLookupcity.Close()
     End Sub
 
     Private Sub LookupCityToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LookupCityToolStripMenuItem.Click
@@ -42,6 +47,7 @@
         FrmLookupcity.Show()
         Label1.Hide()
         Label2.Hide()
+        frmencontrar.Close()
     End Sub
 
     Private Sub GetListByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GetListByNameToolStripMenuItem.Click
@@ -51,6 +57,8 @@
         frmGetListByName.Show()
         Label1.Hide()
         Label2.Hide()
+        frmencontrar.Close()
+        FrmLookupcity.Close()
     End Sub
 
     Private Sub GetDataSetByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GetDataSetByNameToolStripMenuItem.Click
@@ -59,6 +67,8 @@
         frmPorNombre.Show()
         Label1.Hide()
         Label2.Hide()
+        frmencontrar.Close()
+        FrmLookupcity.Close()
     End Sub
 
     Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
