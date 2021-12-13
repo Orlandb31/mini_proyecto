@@ -70,31 +70,9 @@ C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\o
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
 C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.FrmLookupcity.resources
 C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.SuggestedBindingRedirects.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Form1.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmdividir.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmencontrar.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.FrmLookupcity.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmsuma.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Resources.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.GenerateResource.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe.config
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.pdb
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CoreCompileInputs.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmresulperson.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.AssemblyReference.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmresulperson.resources
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\bin\Debug\Bunifu.Licensing.dll
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
 C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
@@ -239,8 +217,30 @@ C:\Users\mathe\source\repos\mini_proyecto\mini_proyecto\bin\Debug\Bunifu.UI.WinF
 C:\Users\mathe\source\repos\mini_proyecto\mini_proyecto\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\mathe\source\repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources
 C:\Users\mathe\source\repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmresulperson.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe.config
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\mini_proyecto.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Bunifu_UI_v1.52.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\DevComponents.DotNetBar2.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Guna.UI.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Guna.UI2.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\DevComponents.DotNetBar2.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\bin\Debug\Newtonsoft.Json.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.SuggestedBindingRedirects.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Form1.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmdividir.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmencontrar.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.FrmLookupcity.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmresulperson.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmsuma.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CopyComplete
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
