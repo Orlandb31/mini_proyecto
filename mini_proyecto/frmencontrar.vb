@@ -5,6 +5,16 @@ Public Class frmencontrar
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
     Public nomb, SSN, DOB, Hstreet, Hcity, Hstate, Hzip, Ocity, Ostreet, Ostate, Ozip, FC, AGE As String
 
+    Private Sub frmencontrar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Guna2GradientPanel1.Left = (Me.Width - Guna2GradientPanel1.Width) / 2
+        Guna2GradientPanel1.Top = (Me.Height - Guna2GradientPanel1.Height) / 2
+        Button1.Left = (Me.Guna2GradientPanel1.Width - Button1.Width) / 2
+        Label1.Left = (Me.Guna2GradientPanel1.Width - Label1.Width) / 2
+        Label2.Left = (Me.Guna2GradientPanel1.Width - Label2.Width) / 2
+        txtID.Left = (Me.Guna2GradientPanel1.Width - txtID.Width) / 2
+        txtID.Top = (Me.Guna2GradientPanel1.Height - txtID.Height) / 2
+    End Sub
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim ID As Integer
 
