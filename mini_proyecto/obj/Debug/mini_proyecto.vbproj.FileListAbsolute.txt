@@ -87,3 +87,5 @@ C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\o
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.FrmLookupcity.resources
+C:\Users\mathe\Source\Repos\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources

@@ -17,4 +17,8 @@ Public Class frmPorNombre
             MsgBox("SE ha creado correctamente")
         End If
     End Sub
+
+    Private Sub frmPorNombre_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
