@@ -9,27 +9,41 @@ Public Class frmencontrar
         Dim ID As Integer
 
         ID = Val(txtID.Text)
-        Dim JsonData As Object = Servicios.FindPerson(ID)
+        If Trim(txtID.Text) = "" Then
+            MsgBox("vacio")
+        Else
+            Try
+                Dim JsonData As Object = Servicios.FindPerson(ID)
+                Me.nomb = JsonData.Name.ToString()
+                Me.SSN = JsonData.SSN.ToString()
+                Me.DOB = JsonData.DOB.ToString()
 
-        Me.nomb = JsonData.Name.ToString()
-        Me.SSN = JsonData.SSN.ToString()
-        Me.DOB = JsonData.DOB.ToString()
+                Me.Hstreet = JsonData.Home.Street.ToString()
+                Me.Hcity = JsonData.Home.City.ToString()
+                Me.Hstate = JsonData.Home.State.ToString()
+                Me.Hzip = JsonData.Home.Zip.ToString()
 
-        Me.Hstreet = JsonData.Home.Street.ToString()
-        Me.Hcity = JsonData.Home.City.ToString()
-        Me.Hstate = JsonData.Home.State.ToString()
-        Me.Hzip = JsonData.Home.Zip.ToString()
+                Me.Ostreet = JsonData.Office.Street.ToString()
+                Me.Ocity = JsonData.Office.City.ToString()
+                Me.Ostate = JsonData.Office.State.ToString()
+                Me.Ozip = JsonData.Office.Zip.ToString()
 
-        Me.Ostreet = JsonData.Office.Street.ToString()
-        Me.Ocity = JsonData.Office.City.ToString()
-        Me.Ostate = JsonData.Office.State.ToString()
-        Me.Ozip = JsonData.Office.Zip.ToString()
+                Me.FC = JsonData.FavoriteColors(0)
+                Me.AGE = JsonData.Age.ToString()
 
-        Me.FC = JsonData.FavoriteColors(0)
-        Me.AGE = JsonData.Age.ToString()
-
-        frmresulperson.Show()
+                frmresulperson.Show()
+            Catch
+                MsgBox("Error en ejecutar el servicio")
+            End Try
+        End If
     End Sub
-
+    Private Sub txtid_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtID.KeyPress
+        If Char.IsNumber(e.KeyChar) Then
+            e.Handled = False
+        ElseIf Char.IsControl(e.KeyChar) Then
+            e.Handled = False
+        Else : e.Handled = True
+        End If
+    End Sub
 
 End Class

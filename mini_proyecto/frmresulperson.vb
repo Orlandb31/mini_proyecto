@@ -5,20 +5,20 @@
     End Sub
 
     Private Sub frmresulperson_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        txtnombre.Text = frmencontrar.nomb
-        txtssn.Text = frmencontrar.SSN
-        txtdob.Text = frmencontrar.DOB
-        txtage.Text = frmencontrar.AGE
-        txtcolorfav.Text = frmencontrar.FC
+        lblnombre.Text = frmencontrar.nomb
+        lblssn.Text = frmencontrar.SSN
+        lbldob.Text = frmencontrar.DOB
+        lblage.Text = frmencontrar.AGE
+        lblfc.Text = frmencontrar.FC
 
-        txthcalle.Text = frmencontrar.Hstreet
-        txthciudad.Text = frmencontrar.Hcity
-        txthestate.Text = frmencontrar.Hstate
-        txthzip.Text = frmencontrar.Hzip
+        lblhcalle.Text = frmencontrar.Hstreet
+        lblhcity.Text = frmencontrar.Hcity
+        lblhestado.Text = frmencontrar.Hstate
+        lblhzip.Text = frmencontrar.Hzip
 
-        txtocalle.Text = frmencontrar.Ostreet
-        txtociudad.Text = frmencontrar.Ocity
-        txtoestado.Text = frmencontrar.Ostate
-        txtozip.Text = frmencontrar.Ozip
+        lblocalle.Text = frmencontrar.Ostreet
+        lblocity.Text = frmencontrar.Ocity
+        lbloestado.Text = frmencontrar.Ostate
+        lblozip.Text = frmencontrar.Ozip
     End Sub
 End Class

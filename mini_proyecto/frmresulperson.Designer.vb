@@ -39,19 +39,19 @@ Partial Class frmresulperson
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.txtnombre = New System.Windows.Forms.TextBox()
-        Me.txtssn = New System.Windows.Forms.TextBox()
-        Me.txtdob = New System.Windows.Forms.TextBox()
-        Me.txtage = New System.Windows.Forms.TextBox()
-        Me.txtcolorfav = New System.Windows.Forms.TextBox()
-        Me.txthcalle = New System.Windows.Forms.TextBox()
-        Me.txthciudad = New System.Windows.Forms.TextBox()
-        Me.txthestate = New System.Windows.Forms.TextBox()
-        Me.txthzip = New System.Windows.Forms.TextBox()
-        Me.txtocalle = New System.Windows.Forms.TextBox()
-        Me.txtociudad = New System.Windows.Forms.TextBox()
-        Me.txtoestado = New System.Windows.Forms.TextBox()
-        Me.txtozip = New System.Windows.Forms.TextBox()
+        Me.lblnombre = New System.Windows.Forms.Label()
+        Me.lbldob = New System.Windows.Forms.Label()
+        Me.lblssn = New System.Windows.Forms.Label()
+        Me.lblage = New System.Windows.Forms.Label()
+        Me.lblfc = New System.Windows.Forms.Label()
+        Me.lblhcalle = New System.Windows.Forms.Label()
+        Me.lblhcity = New System.Windows.Forms.Label()
+        Me.lblhestado = New System.Windows.Forms.Label()
+        Me.lblhzip = New System.Windows.Forms.Label()
+        Me.lblocalle = New System.Windows.Forms.Label()
+        Me.lblocity = New System.Windows.Forms.Label()
+        Me.lbloestado = New System.Windows.Forms.Label()
+        Me.lblozip = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -98,10 +98,10 @@ Partial Class frmresulperson
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.txthzip)
-        Me.GroupBox1.Controls.Add(Me.txthestate)
-        Me.GroupBox1.Controls.Add(Me.txthciudad)
-        Me.GroupBox1.Controls.Add(Me.txthcalle)
+        Me.GroupBox1.Controls.Add(Me.lblhzip)
+        Me.GroupBox1.Controls.Add(Me.lblhestado)
+        Me.GroupBox1.Controls.Add(Me.lblhcity)
+        Me.GroupBox1.Controls.Add(Me.lblhcalle)
         Me.GroupBox1.Controls.Add(Me.Label10)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label8)
@@ -172,10 +172,10 @@ Partial Class frmresulperson
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.txtozip)
-        Me.GroupBox2.Controls.Add(Me.txtoestado)
-        Me.GroupBox2.Controls.Add(Me.txtociudad)
-        Me.GroupBox2.Controls.Add(Me.txtocalle)
+        Me.GroupBox2.Controls.Add(Me.lblozip)
+        Me.GroupBox2.Controls.Add(Me.lbloestado)
+        Me.GroupBox2.Controls.Add(Me.lblocity)
+        Me.GroupBox2.Controls.Add(Me.lblocalle)
         Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Controls.Add(Me.Label13)
@@ -234,120 +234,147 @@ Partial Class frmresulperson
         Me.Button1.Text = "CERRAR"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'txtnombre
+        'lblnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(148, 100)
-        Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.ReadOnly = True
-        Me.txtnombre.Size = New System.Drawing.Size(100, 20)
-        Me.txtnombre.TabIndex = 9
+        Me.lblnombre.AutoSize = True
+        Me.lblnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblnombre.Location = New System.Drawing.Point(147, 103)
+        Me.lblnombre.Name = "lblnombre"
+        Me.lblnombre.Size = New System.Drawing.Size(26, 16)
+        Me.lblnombre.TabIndex = 9
+        Me.lblnombre.Text = "***"
         '
-        'txtssn
+        'lbldob
         '
-        Me.txtssn.Location = New System.Drawing.Point(123, 134)
-        Me.txtssn.Name = "txtssn"
-        Me.txtssn.ReadOnly = True
-        Me.txtssn.Size = New System.Drawing.Size(100, 20)
-        Me.txtssn.TabIndex = 10
+        Me.lbldob.AutoSize = True
+        Me.lbldob.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbldob.Location = New System.Drawing.Point(123, 170)
+        Me.lbldob.Name = "lbldob"
+        Me.lbldob.Size = New System.Drawing.Size(26, 16)
+        Me.lbldob.TabIndex = 10
+        Me.lbldob.Text = "***"
         '
-        'txtdob
+        'lblssn
         '
-        Me.txtdob.Location = New System.Drawing.Point(123, 163)
-        Me.txtdob.Name = "txtdob"
-        Me.txtdob.ReadOnly = True
-        Me.txtdob.Size = New System.Drawing.Size(100, 20)
-        Me.txtdob.TabIndex = 11
+        Me.lblssn.AutoSize = True
+        Me.lblssn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblssn.Location = New System.Drawing.Point(123, 137)
+        Me.lblssn.Name = "lblssn"
+        Me.lblssn.Size = New System.Drawing.Size(26, 16)
+        Me.lblssn.TabIndex = 11
+        Me.lblssn.Text = "***"
         '
-        'txtage
+        'lblage
         '
-        Me.txtage.Location = New System.Drawing.Point(434, 100)
-        Me.txtage.Name = "txtage"
-        Me.txtage.ReadOnly = True
-        Me.txtage.Size = New System.Drawing.Size(100, 20)
-        Me.txtage.TabIndex = 12
+        Me.lblage.AutoSize = True
+        Me.lblage.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblage.Location = New System.Drawing.Point(434, 103)
+        Me.lblage.Name = "lblage"
+        Me.lblage.Size = New System.Drawing.Size(26, 16)
+        Me.lblage.TabIndex = 12
+        Me.lblage.Text = "***"
         '
-        'txtcolorfav
+        'lblfc
         '
-        Me.txtcolorfav.Location = New System.Drawing.Point(495, 134)
-        Me.txtcolorfav.Name = "txtcolorfav"
-        Me.txtcolorfav.ReadOnly = True
-        Me.txtcolorfav.Size = New System.Drawing.Size(100, 20)
-        Me.txtcolorfav.TabIndex = 13
+        Me.lblfc.AutoSize = True
+        Me.lblfc.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblfc.Location = New System.Drawing.Point(495, 137)
+        Me.lblfc.Name = "lblfc"
+        Me.lblfc.Size = New System.Drawing.Size(26, 16)
+        Me.lblfc.TabIndex = 13
+        Me.lblfc.Text = "***"
         '
-        'txthcalle
+        'lblhcalle
         '
-        Me.txthcalle.Location = New System.Drawing.Point(109, 32)
-        Me.txthcalle.Name = "txthcalle"
-        Me.txthcalle.ReadOnly = True
-        Me.txthcalle.Size = New System.Drawing.Size(127, 22)
-        Me.txthcalle.TabIndex = 14
+        Me.lblhcalle.AutoSize = True
+        Me.lblhcalle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblhcalle.Location = New System.Drawing.Point(130, 35)
+        Me.lblhcalle.Name = "lblhcalle"
+        Me.lblhcalle.Size = New System.Drawing.Size(26, 16)
+        Me.lblhcalle.TabIndex = 14
+        Me.lblhcalle.Text = "***"
         '
-        'txthciudad
+        'lblhcity
         '
-        Me.txthciudad.Location = New System.Drawing.Point(109, 65)
-        Me.txthciudad.Name = "txthciudad"
-        Me.txthciudad.ReadOnly = True
-        Me.txthciudad.Size = New System.Drawing.Size(127, 22)
-        Me.txthciudad.TabIndex = 15
+        Me.lblhcity.AutoSize = True
+        Me.lblhcity.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblhcity.Location = New System.Drawing.Point(130, 68)
+        Me.lblhcity.Name = "lblhcity"
+        Me.lblhcity.Size = New System.Drawing.Size(26, 16)
+        Me.lblhcity.TabIndex = 15
+        Me.lblhcity.Text = "***"
         '
-        'txthestate
+        'lblhestado
         '
-        Me.txthestate.Location = New System.Drawing.Point(109, 93)
-        Me.txthestate.Name = "txthestate"
-        Me.txthestate.ReadOnly = True
-        Me.txthestate.Size = New System.Drawing.Size(127, 22)
-        Me.txthestate.TabIndex = 16
+        Me.lblhestado.AutoSize = True
+        Me.lblhestado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblhestado.Location = New System.Drawing.Point(130, 96)
+        Me.lblhestado.Name = "lblhestado"
+        Me.lblhestado.Size = New System.Drawing.Size(26, 16)
+        Me.lblhestado.TabIndex = 16
+        Me.lblhestado.Text = "***"
         '
-        'txthzip
+        'lblhzip
         '
-        Me.txthzip.Location = New System.Drawing.Point(109, 126)
-        Me.txthzip.Name = "txthzip"
-        Me.txthzip.ReadOnly = True
-        Me.txthzip.Size = New System.Drawing.Size(127, 22)
-        Me.txthzip.TabIndex = 17
+        Me.lblhzip.AutoSize = True
+        Me.lblhzip.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblhzip.Location = New System.Drawing.Point(130, 129)
+        Me.lblhzip.Name = "lblhzip"
+        Me.lblhzip.Size = New System.Drawing.Size(26, 16)
+        Me.lblhzip.TabIndex = 17
+        Me.lblhzip.Text = "***"
         '
-        'txtocalle
+        'lblocalle
         '
-        Me.txtocalle.Location = New System.Drawing.Point(117, 32)
-        Me.txtocalle.Name = "txtocalle"
-        Me.txtocalle.ReadOnly = True
-        Me.txtocalle.Size = New System.Drawing.Size(160, 22)
-        Me.txtocalle.TabIndex = 10
+        Me.lblocalle.AutoSize = True
+        Me.lblocalle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblocalle.Location = New System.Drawing.Point(177, 35)
+        Me.lblocalle.Name = "lblocalle"
+        Me.lblocalle.Size = New System.Drawing.Size(26, 16)
+        Me.lblocalle.TabIndex = 14
+        Me.lblocalle.Text = "***"
         '
-        'txtociudad
+        'lblocity
         '
-        Me.txtociudad.Location = New System.Drawing.Point(117, 65)
-        Me.txtociudad.Name = "txtociudad"
-        Me.txtociudad.ReadOnly = True
-        Me.txtociudad.Size = New System.Drawing.Size(160, 22)
-        Me.txtociudad.TabIndex = 11
+        Me.lblocity.AutoSize = True
+        Me.lblocity.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblocity.Location = New System.Drawing.Point(177, 68)
+        Me.lblocity.Name = "lblocity"
+        Me.lblocity.Size = New System.Drawing.Size(26, 16)
+        Me.lblocity.TabIndex = 15
+        Me.lblocity.Text = "***"
         '
-        'txtoestado
+        'lbloestado
         '
-        Me.txtoestado.Location = New System.Drawing.Point(117, 93)
-        Me.txtoestado.Name = "txtoestado"
-        Me.txtoestado.ReadOnly = True
-        Me.txtoestado.Size = New System.Drawing.Size(160, 22)
-        Me.txtoestado.TabIndex = 12
+        Me.lbloestado.AutoSize = True
+        Me.lbloestado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbloestado.Location = New System.Drawing.Point(177, 96)
+        Me.lbloestado.Name = "lbloestado"
+        Me.lbloestado.Size = New System.Drawing.Size(26, 16)
+        Me.lbloestado.TabIndex = 16
+        Me.lbloestado.Text = "***"
         '
-        'txtozip
+        'lblozip
         '
-        Me.txtozip.Location = New System.Drawing.Point(117, 126)
-        Me.txtozip.Name = "txtozip"
-        Me.txtozip.ReadOnly = True
-        Me.txtozip.Size = New System.Drawing.Size(160, 22)
-        Me.txtozip.TabIndex = 13
+        Me.lblozip.AutoSize = True
+        Me.lblozip.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblozip.Location = New System.Drawing.Point(177, 129)
+        Me.lblozip.Name = "lblozip"
+        Me.lblozip.Size = New System.Drawing.Size(26, 16)
+        Me.lblozip.TabIndex = 17
+        Me.lblozip.Text = "***"
         '
         'frmresulperson
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.txtcolorfav)
-        Me.Controls.Add(Me.txtage)
-        Me.Controls.Add(Me.txtdob)
-        Me.Controls.Add(Me.txtssn)
-        Me.Controls.Add(Me.txtnombre)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(751, 576)
+        Me.Controls.Add(Me.lblfc)
+        Me.Controls.Add(Me.lblage)
+        Me.Controls.Add(Me.lblssn)
+        Me.Controls.Add(Me.lbldob)
+        Me.Controls.Add(Me.lblnombre)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Label6)
@@ -357,8 +384,11 @@ Partial Class frmresulperson
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmresulperson"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmresulperson"
+        Me.TransparencyKey = System.Drawing.Color.Gray
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -385,17 +415,17 @@ Partial Class frmresulperson
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents txthzip As TextBox
-    Friend WithEvents txthestate As TextBox
-    Friend WithEvents txthciudad As TextBox
-    Friend WithEvents txthcalle As TextBox
-    Friend WithEvents txtozip As TextBox
-    Friend WithEvents txtoestado As TextBox
-    Friend WithEvents txtociudad As TextBox
-    Friend WithEvents txtocalle As TextBox
-    Friend WithEvents txtnombre As TextBox
-    Friend WithEvents txtssn As TextBox
-    Friend WithEvents txtdob As TextBox
-    Friend WithEvents txtage As TextBox
-    Friend WithEvents txtcolorfav As TextBox
+    Friend WithEvents lblhzip As Label
+    Friend WithEvents lblhestado As Label
+    Friend WithEvents lblhcity As Label
+    Friend WithEvents lblhcalle As Label
+    Friend WithEvents lblozip As Label
+    Friend WithEvents lbloestado As Label
+    Friend WithEvents lblocity As Label
+    Friend WithEvents lblocalle As Label
+    Friend WithEvents lblnombre As Label
+    Friend WithEvents lbldob As Label
+    Friend WithEvents lblssn As Label
+    Friend WithEvents lblage As Label
+    Friend WithEvents lblfc As Label
 End Class
