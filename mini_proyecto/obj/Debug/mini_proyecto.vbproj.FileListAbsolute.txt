@@ -87,3 +87,5 @@ C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\o
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
 C:\Users\Pc Milenis\source\repos\MiniproyectoFinal\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources

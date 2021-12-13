@@ -152,6 +152,9 @@
     <EmbeddedResource Include="frmencontrar.resx">
       <DependentUpon>frmencontrar.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmGetListByName.resx">
+      <DependentUpon>frmGetListByName.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLookupcity.resx">
       <DependentUpon>FrmLookupcity.vb</DependentUpon>
     </EmbeddedResource>
