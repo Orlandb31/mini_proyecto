@@ -56,4 +56,8 @@
         Label1.Hide()
         Label2.Hide()
     End Sub
+
+    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+
+    End Sub
 End Class
