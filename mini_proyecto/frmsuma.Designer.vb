@@ -23,6 +23,7 @@ Partial Class frmsuma
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.p1 = New Guna.UI.WinForms.GunaPanel()
+        Me.aviso1 = New System.Windows.Forms.Label()
         Me.aviso = New System.Windows.Forms.Label()
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.txtresultado = New Guna.UI2.WinForms.Guna2TextBox()
@@ -32,7 +33,6 @@ Partial Class frmsuma
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtnumero1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.aviso1 = New System.Windows.Forms.Label()
         Me.p1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -50,11 +50,22 @@ Partial Class frmsuma
         Me.p1.Controls.Add(Me.Label5)
         Me.p1.Controls.Add(Me.txtnumero1)
         Me.p1.Controls.Add(Me.Label6)
-        Me.p1.Location = New System.Drawing.Point(203, 53)
-        Me.p1.Margin = New System.Windows.Forms.Padding(4)
+        Me.p1.Location = New System.Drawing.Point(152, 43)
         Me.p1.Name = "p1"
-        Me.p1.Size = New System.Drawing.Size(470, 546)
+        Me.p1.Size = New System.Drawing.Size(352, 444)
         Me.p1.TabIndex = 10
+        '
+        'aviso1
+        '
+        Me.aviso1.AutoSize = True
+        Me.aviso1.BackColor = System.Drawing.Color.Transparent
+        Me.aviso1.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.aviso1.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.aviso1.Location = New System.Drawing.Point(36, 295)
+        Me.aviso1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.aviso1.Name = "aviso1"
+        Me.aviso1.Size = New System.Drawing.Size(0, 26)
+        Me.aviso1.TabIndex = 19
         '
         'aviso
         '
@@ -62,9 +73,10 @@ Partial Class frmsuma
         Me.aviso.BackColor = System.Drawing.Color.Transparent
         Me.aviso.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.aviso.ForeColor = System.Drawing.Color.Red
-        Me.aviso.Location = New System.Drawing.Point(78, 363)
+        Me.aviso.Location = New System.Drawing.Point(58, 295)
+        Me.aviso.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.aviso.Name = "aviso"
-        Me.aviso.Size = New System.Drawing.Size(0, 31)
+        Me.aviso.Size = New System.Drawing.Size(0, 26)
         Me.aviso.TabIndex = 18
         '
         'GunaButton1
@@ -80,15 +92,14 @@ Partial Class frmsuma
         Me.GunaButton1.ForeColor = System.Drawing.Color.White
         Me.GunaButton1.Image = Nothing
         Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton1.Location = New System.Drawing.Point(98, 435)
-        Me.GunaButton1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GunaButton1.Location = New System.Drawing.Point(74, 353)
         Me.GunaButton1.Name = "GunaButton1"
         Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.SpringGreen
         Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
         Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
         Me.GunaButton1.OnHoverImage = Nothing
         Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton1.Size = New System.Drawing.Size(279, 52)
+        Me.GunaButton1.Size = New System.Drawing.Size(209, 42)
         Me.GunaButton1.TabIndex = 17
         Me.GunaButton1.Text = "Sumar"
         Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -107,15 +118,14 @@ Partial Class frmsuma
         Me.txtresultado.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtresultado.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtresultado.HoverState.Parent = Me.txtresultado
-        Me.txtresultado.Location = New System.Drawing.Point(201, 287)
-        Me.txtresultado.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtresultado.Location = New System.Drawing.Point(151, 233)
         Me.txtresultado.Name = "txtresultado"
         Me.txtresultado.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtresultado.PlaceholderText = ""
         Me.txtresultado.ReadOnly = True
         Me.txtresultado.SelectedText = ""
         Me.txtresultado.ShadowDecoration.Parent = Me.txtresultado
-        Me.txtresultado.Size = New System.Drawing.Size(223, 44)
+        Me.txtresultado.Size = New System.Drawing.Size(167, 36)
         Me.txtresultado.TabIndex = 16
         '
         'Label4
@@ -124,9 +134,10 @@ Partial Class frmsuma
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(48, 300)
+        Me.Label4.Location = New System.Drawing.Point(36, 244)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(136, 31)
+        Me.Label4.Size = New System.Drawing.Size(107, 26)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "Resultado"
         '
@@ -144,14 +155,13 @@ Partial Class frmsuma
         Me.txtnumero2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtnumero2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtnumero2.HoverState.Parent = Me.txtnumero2
-        Me.txtnumero2.Location = New System.Drawing.Point(201, 193)
-        Me.txtnumero2.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnumero2.Location = New System.Drawing.Point(151, 157)
         Me.txtnumero2.Name = "txtnumero2"
         Me.txtnumero2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtnumero2.PlaceholderText = ""
         Me.txtnumero2.SelectedText = ""
         Me.txtnumero2.ShadowDecoration.Parent = Me.txtnumero2
-        Me.txtnumero2.Size = New System.Drawing.Size(223, 44)
+        Me.txtnumero2.Size = New System.Drawing.Size(167, 36)
         Me.txtnumero2.TabIndex = 14
         '
         'Label3
@@ -160,9 +170,10 @@ Partial Class frmsuma
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(48, 193)
+        Me.Label3.Location = New System.Drawing.Point(36, 157)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(136, 31)
+        Me.Label3.Size = New System.Drawing.Size(108, 26)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Numero 2"
         '
@@ -172,9 +183,10 @@ Partial Class frmsuma
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(48, 103)
+        Me.Label5.Location = New System.Drawing.Point(36, 84)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(136, 31)
+        Me.Label5.Size = New System.Drawing.Size(108, 26)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Numero 1"
         '
@@ -192,14 +204,13 @@ Partial Class frmsuma
         Me.txtnumero1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtnumero1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtnumero1.HoverState.Parent = Me.txtnumero1
-        Me.txtnumero1.Location = New System.Drawing.Point(201, 103)
-        Me.txtnumero1.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnumero1.Location = New System.Drawing.Point(151, 84)
         Me.txtnumero1.Name = "txtnumero1"
         Me.txtnumero1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtnumero1.PlaceholderText = ""
         Me.txtnumero1.SelectedText = ""
         Me.txtnumero1.ShadowDecoration.Parent = Me.txtnumero1
-        Me.txtnumero1.Size = New System.Drawing.Size(223, 44)
+        Me.txtnumero1.Size = New System.Drawing.Size(167, 36)
         Me.txtnumero1.TabIndex = 11
         '
         'Label6
@@ -207,31 +218,28 @@ Partial Class frmsuma
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(135, 34)
+        Me.Label6.Location = New System.Drawing.Point(77, 26)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(262, 31)
+        Me.Label6.Size = New System.Drawing.Size(206, 26)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Sumar dos Numeros"
         '
-        'aviso1
-        '
-        Me.aviso1.AutoSize = True
-        Me.aviso1.BackColor = System.Drawing.Color.Transparent
-        Me.aviso1.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.aviso1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.aviso1.Location = New System.Drawing.Point(48, 363)
-        Me.aviso1.Name = "aviso1"
-        Me.aviso1.Size = New System.Drawing.Size(0, 31)
-        Me.aviso1.TabIndex = 19
-        '
         'frmsuma
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(911, 676)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(683, 549)
         Me.Controls.Add(Me.p1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmsuma"
+        Me.ShowIcon = False
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmsuma"
         Me.p1.ResumeLayout(False)

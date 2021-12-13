@@ -5,7 +5,7 @@ Public Class frmencontrar
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
     Public nomb, SSN, DOB, Hstreet, Hcity, Hstate, Hzip, Ocity, Ostreet, Ostate, Ozip, FC, AGE As String
 
-    Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2GradientPanel1.Paint
+    Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles paEncontrar.Paint
 
     End Sub
 

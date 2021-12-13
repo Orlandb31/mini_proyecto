@@ -10,6 +10,7 @@
     Private Sub SumaDeDosEnterosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SumaDeDosEnterosToolStripMenuItem.Click
         frmsuma.MdiParent = Me
         frmsuma.WindowState = FormWindowState.Maximized
+
         frmsuma.Show()
         Label1.Hide()
         Label2.Hide()
@@ -19,6 +20,7 @@
     Private Sub FindpersonidToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FindpersonidToolStripMenuItem.Click
         frmencontrar.MdiParent = Me
         frmencontrar.WindowState = FormWindowState.Maximized
+        frmencontrar.paEncontrar.Left = (Me.Width / 2) - (frmencontrar.paEncontrar.Width / 2)
         frmencontrar.Show()
         Label1.Hide()
         Label2.Hide()
@@ -28,6 +30,7 @@
     Private Sub DivisionDeDosEnterosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DivisionDeDosEnterosToolStripMenuItem.Click
         frmdividir.MdiParent = Me
         frmdividir.WindowState = FormWindowState.Maximized
+        frmdividir.p1.Left = (Me.Width / 2) - (frmdividir.p1.Width / 2)
         frmdividir.Show()
         Label1.Hide()
         Label2.Hide()
@@ -44,6 +47,7 @@
     Private Sub GetListByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GetListByNameToolStripMenuItem.Click
         frmGetListByName.MdiParent = Me
         frmGetListByName.WindowState = FormWindowState.Maximized
+        frmGetListByName.p1.Left = (Me.Width / 2) - (frmGetListByName.p1.Width / 2)
         frmGetListByName.Show()
         Label1.Hide()
         Label2.Hide()

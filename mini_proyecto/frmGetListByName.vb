@@ -1,7 +1,8 @@
 ﻿Imports Newtonsoft.Json
 Public Class frmGetListByName
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
 
         Try
             Dim name As String
@@ -10,19 +11,14 @@ Public Class frmGetListByName
 
             Dim JsonData As String = JsonConvert.SerializeObject(Servicios.GetListByName(name))
             dt = TryCast(JsonConvert.DeserializeObject(JsonData, (GetType(DataTable))), DataTable)
+
             dtgNombre.DataSource = dt
-
-
-
-
+            If dtgNombre.Columns(4).Index = 4 Then
+                dtgNombre.Columns(4).Visible = False
+            End If
 
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox("Lo Sentimos, el nombre escrito no existe")
         End Try
-
-    End Sub
-
-    Private Sub frmGetListByName_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ''dtgNombre.Visible = False
     End Sub
 End Class
