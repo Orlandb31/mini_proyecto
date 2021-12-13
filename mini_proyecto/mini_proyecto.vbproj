@@ -154,6 +154,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGetListByName.resx">
       <DependentUpon>frmGetListByName.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLookupcity.resx">
       <DependentUpon>FrmLookupcity.vb</DependentUpon>
