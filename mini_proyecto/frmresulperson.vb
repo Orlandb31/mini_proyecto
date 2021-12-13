@@ -1,8 +1,4 @@
 ﻿Public Class frmresulperson
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        frmencontrar.txtID.ResetText()
-        Me.Close()
-    End Sub
 
     Private Sub frmresulperson_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblnombre.Text = frmencontrar.nomb
@@ -20,5 +16,10 @@
         lblocity.Text = frmencontrar.Ocity
         lbloestado.Text = frmencontrar.Ostate
         lblozip.Text = frmencontrar.Ozip
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        frmencontrar.txtID.ResetText()
+        Me.Close()
     End Sub
 End Class
