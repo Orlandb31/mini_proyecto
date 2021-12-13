@@ -91,3 +91,6 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmGetListByName.resources
+C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmPorNombre.resources
+C:\Users\Francisco\Source\Repos\Orlandb31\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.frmresulperson.resources
