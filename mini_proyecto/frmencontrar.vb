@@ -4,7 +4,8 @@ Imports System.Linq
 Public Class frmencontrar
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
     Public nomb, SSN, DOB, Hstreet, Hcity, Hstate, Hzip, Ocity, Ostreet, Ostate, Ozip, FC, AGE As String
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim ID As Integer
 
         ID = Val(txtID.Text)
@@ -36,7 +37,7 @@ Public Class frmencontrar
             End Try
         End If
     End Sub
-    Private Sub txtid_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
+    Private Sub txtid_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtID.KeyPress
         If Char.IsNumber(e.KeyChar) Then
             e.Handled = False
         ElseIf Char.IsControl(e.KeyChar) Then

@@ -23,59 +23,23 @@ Partial Class frmencontrar
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtID = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.Button1 = New Guna.UI.WinForms.GunaButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtID = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2GradientPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2GradientPanel1
         '
         Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(35, Byte), Integer))
-        Me.Guna2GradientPanel1.Controls.Add(Me.Button1)
         Me.Guna2GradientPanel1.Controls.Add(Me.txtID)
+        Me.Guna2GradientPanel1.Controls.Add(Me.Button1)
         Me.Guna2GradientPanel1.Controls.Add(Me.Label1)
         Me.Guna2GradientPanel1.Location = New System.Drawing.Point(84, 60)
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
         Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
         Me.Guna2GradientPanel1.Size = New System.Drawing.Size(443, 347)
         Me.Guna2GradientPanel1.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(104, 49)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(252, 26)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Encontrar Persona con ID"
-        '
-        'txtID
-        '
-        Me.txtID.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.txtID.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.txtID.characterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.txtID.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtID.Font = New System.Drawing.Font("Century Gothic", 9.75!)
-        Me.txtID.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.txtID.HintForeColor = System.Drawing.Color.Silver
-        Me.txtID.HintText = "Ingrese el ID"
-        Me.txtID.isPassword = False
-        Me.txtID.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.txtID.LineIdleColor = System.Drawing.Color.Gray
-        Me.txtID.LineMouseHoverColor = System.Drawing.Color.Silver
-        Me.txtID.LineThickness = 3
-        Me.txtID.Location = New System.Drawing.Point(104, 153)
-        Me.txtID.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtID.MaxLength = 32767
-        Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(252, 44)
-        Me.txtID.TabIndex = 8
-        Me.txtID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Button1
         '
@@ -102,6 +66,42 @@ Partial Class frmencontrar
         Me.Button1.Text = "Buscar"
         Me.Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label1.Location = New System.Drawing.Point(104, 49)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(252, 26)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Encontrar Persona con ID"
+        '
+        'txtID
+        '
+        Me.txtID.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtID.DefaultText = ""
+        Me.txtID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtID.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtID.DisabledState.Parent = Me.txtID
+        Me.txtID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtID.FocusedState.Parent = Me.txtID
+        Me.txtID.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtID.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtID.HoverState.Parent = Me.txtID
+        Me.txtID.Location = New System.Drawing.Point(124, 168)
+        Me.txtID.Name = "txtID"
+        Me.txtID.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtID.PlaceholderText = ""
+        Me.txtID.SelectedText = ""
+        Me.txtID.ShadowDecoration.Parent = Me.txtID
+        Me.txtID.Size = New System.Drawing.Size(200, 36)
+        Me.txtID.TabIndex = 10
+        '
         'frmencontrar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -121,5 +121,5 @@ Partial Class frmencontrar
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents txtID As BunifuMaterialTextbox
+    Friend WithEvents txtID As Guna.UI2.WinForms.Guna2TextBox
 End Class
