@@ -40,6 +40,7 @@ Public Class frmPorNombre
 
     End Sub
 
+
     Private Sub frmPorNombre_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
