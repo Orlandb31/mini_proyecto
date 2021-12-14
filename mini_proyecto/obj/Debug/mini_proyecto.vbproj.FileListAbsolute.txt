@@ -174,6 +174,7 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.Resources.resources
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.GenerateResource.cache
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.vbproj.CopyComplete
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.exe
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\mini_proyecto\mini_proyecto\obj\Debug\mini_proyecto.pdb
