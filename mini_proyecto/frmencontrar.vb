@@ -5,8 +5,18 @@ Public Class frmencontrar
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
     Public nomb, SSN, DOB, Hstreet, Hcity, Hstate, Hzip, Ocity, Ostreet, Ostate, Ozip, FC, AGE As String
 
-    Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles paEncontrar.Paint
+    Private Sub txtID_MouseClick(sender As Object, e As MouseEventArgs) Handles txtID.MouseClick, txtID.MouseDoubleClick
+        txtID.ResetText()
+    End Sub
 
+    Private Sub txtID_Click(sender As Object, e As EventArgs) Handles txtID.Click, txtID.Enter, txtID.DoubleClick
+        txtID.ResetText()
+    End Sub
+    Private Sub frmencontrar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtID.Left = (Me.paEncontrar.Width - Me.txtID.Width) / 2
+        txtID.Top = (Me.paEncontrar.Height - Me.txtID.Height) / 2
+        Button1.Left = (Me.paEncontrar.Width - Me.Button1.Width) / 2
+        Label1.Left = (Me.paEncontrar.Width - Me.Label1.Width) / 2
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -15,6 +25,7 @@ Public Class frmencontrar
         ID = Val(txtID.Text)
         If Trim(txtID.Text) = "" Then
             MsgBox("vacio")
+            'ElseIf 
         Else
             Try
                 Dim JsonData As Object = Servicios.FindPerson(ID)

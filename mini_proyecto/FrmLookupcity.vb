@@ -27,4 +27,15 @@ Public Class FrmLookupcity
         Else : e.Handled = True
         End If
     End Sub
+
+    Private Sub FrmLookupcity_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtzip.Left = (Me.p1.Width - Me.txtzip.Width) / 2
+        txtzip.Top = (Me.p1.Height - Me.txtzip.Height) / 2
+        Button1.Left = (Me.p1.Width - Me.Button1.Width) / 2
+        Label1.Left = (Me.p1.Width - Me.Label1.Width) / 2
+    End Sub
+
+    Private Sub txtzip_Enter(sender As Object, e As EventArgs) Handles txtzip.Enter
+        txtzip.ResetText()
+    End Sub
 End Class

@@ -3,10 +3,8 @@ Public Class frmsuma
     Dim Servicios As New DemoWS.SOAPDemoSoapClient
 
     Private Sub frmsuma_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-
+        GunaButton1.Left = (Me.p1.Width - Me.GunaButton1.Width) / 2
+        Label6.Left = (Me.p1.Width - Me.Label6.Width) / 2
     End Sub
 
     Private Sub GunaButton1_Click(sender As Object, e As EventArgs) Handles GunaButton1.Click
@@ -24,10 +22,6 @@ Public Class frmsuma
             End Try
         End If
 
-
-    End Sub
-
-    Private Sub p1_Paint(sender As Object, e As PaintEventArgs) Handles p1.Paint
 
     End Sub
 

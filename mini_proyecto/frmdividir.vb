@@ -25,17 +25,22 @@
 
     End Sub
 
-    Private Sub txtnumero1_KeyPress(sender As Object, e As KeyPressEventArgs)
+    Private Sub txtnumero1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtnumero1.KeyPress
         e.Handled = Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar)
         If Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar) Then
             MsgBox("Solo puede digitar numeros")
         End If
     End Sub
 
-    Private Sub txtnumero2_KeyPress(sender As Object, e As KeyPressEventArgs)
+    Private Sub txtnumero2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtnumero2.KeyPress
         e.Handled = Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar)
         If Not IsNumeric(e.KeyChar) And Not Char.IsControl(e.KeyChar) Then
             MsgBox("Solo puede digitar numeros")
         End If
+    End Sub
+
+    Private Sub frmdividir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button1.Left = (Me.p1.Width - Me.Button1.Width) / 2
+        Label1.Left = (Me.p1.Width - Me.Label1.Width) / 2
     End Sub
 End Class

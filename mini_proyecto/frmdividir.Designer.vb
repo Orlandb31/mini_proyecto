@@ -50,9 +50,9 @@ Partial Class frmdividir
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 13.8!, System.Drawing.FontStyle.Bold)
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(101, 28)
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label1.Location = New System.Drawing.Point(132, 52)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 23)
@@ -72,9 +72,9 @@ Partial Class frmdividir
         Me.p1.Controls.Add(Me.Label3)
         Me.p1.Controls.Add(Me.Label2)
         Me.p1.Controls.Add(Me.Label1)
-        Me.p1.Location = New System.Drawing.Point(61, 32)
+        Me.p1.Location = New System.Drawing.Point(68, 43)
         Me.p1.Name = "p1"
-        Me.p1.Size = New System.Drawing.Size(368, 433)
+        Me.p1.Size = New System.Drawing.Size(445, 400)
         Me.p1.TabIndex = 9
         '
         'txtresultado
@@ -89,7 +89,7 @@ Partial Class frmdividir
         Me.txtresultado.LineIdleColor = System.Drawing.Color.Gray
         Me.txtresultado.LineMouseHoverColor = System.Drawing.Color.Silver
         Me.txtresultado.LineThickness = 4
-        Me.txtresultado.Location = New System.Drawing.Point(156, 232)
+        Me.txtresultado.Location = New System.Drawing.Point(196, 254)
         Me.txtresultado.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtresultado.Name = "txtresultado"
         Me.txtresultado.Size = New System.Drawing.Size(167, 38)
@@ -108,7 +108,7 @@ Partial Class frmdividir
         Me.txtnumero2.LineIdleColor = System.Drawing.Color.Gray
         Me.txtnumero2.LineMouseHoverColor = System.Drawing.Color.Silver
         Me.txtnumero2.LineThickness = 4
-        Me.txtnumero2.Location = New System.Drawing.Point(156, 145)
+        Me.txtnumero2.Location = New System.Drawing.Point(196, 170)
         Me.txtnumero2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtnumero2.Name = "txtnumero2"
         Me.txtnumero2.Size = New System.Drawing.Size(167, 38)
@@ -127,7 +127,7 @@ Partial Class frmdividir
         Me.txtnumero1.LineIdleColor = System.Drawing.Color.Gray
         Me.txtnumero1.LineMouseHoverColor = System.Drawing.Color.Silver
         Me.txtnumero1.LineThickness = 4
-        Me.txtnumero1.Location = New System.Drawing.Point(156, 72)
+        Me.txtnumero1.Location = New System.Drawing.Point(196, 97)
         Me.txtnumero1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtnumero1.Name = "txtnumero1"
         Me.txtnumero1.Size = New System.Drawing.Size(167, 38)
@@ -155,18 +155,18 @@ Partial Class frmdividir
         Me.Button1.BorderColor = System.Drawing.Color.Black
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button1.FocusedColor = System.Drawing.Color.Empty
-        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = Nothing
         Me.Button1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button1.Location = New System.Drawing.Point(90, 344)
+        Me.Button1.Location = New System.Drawing.Point(105, 341)
         Me.Button1.Name = "Button1"
         Me.Button1.OnHoverBaseColor = System.Drawing.Color.SpringGreen
         Me.Button1.OnHoverBorderColor = System.Drawing.Color.Black
         Me.Button1.OnHoverForeColor = System.Drawing.Color.White
         Me.Button1.OnHoverImage = Nothing
         Me.Button1.OnPressedColor = System.Drawing.Color.Black
-        Me.Button1.Size = New System.Drawing.Size(209, 42)
+        Me.Button1.Size = New System.Drawing.Size(200, 40)
         Me.Button1.TabIndex = 17
         Me.Button1.Text = "Dividir"
         Me.Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -177,7 +177,7 @@ Partial Class frmdividir
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(36, 244)
+        Me.Label4.Location = New System.Drawing.Point(76, 272)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(101, 23)
@@ -190,7 +190,7 @@ Partial Class frmdividir
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(36, 157)
+        Me.Label3.Location = New System.Drawing.Point(76, 185)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(99, 23)
@@ -203,7 +203,7 @@ Partial Class frmdividir
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(36, 84)
+        Me.Label2.Location = New System.Drawing.Point(76, 112)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 23)
@@ -216,7 +216,7 @@ Partial Class frmdividir
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(512, 520)
+        Me.ClientSize = New System.Drawing.Size(600, 515)
         Me.ControlBox = False
         Me.Controls.Add(Me.p1)
         Me.Controls.Add(Me.mensaje)

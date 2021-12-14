@@ -8,7 +8,7 @@ Public Class frmPorNombre
             '' Dim dt As DataTable
             Dim result
 
-            nombre = Val(txtNombre.Text)
+            nombre = Val(txtnombre.Text)
 
 
             Dim JsonData As Object = Servicios.GetDataSetByName(Name)
@@ -20,7 +20,7 @@ Public Class frmPorNombre
 
 
 
-            Console.WriteLine(txtNombre)
+            Console.WriteLine(txtnombre)
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -42,6 +42,6 @@ Public Class frmPorNombre
 
 
     Private Sub frmPorNombre_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Label1.Left = (Me.panel1.Width - Me.Label1.Width) / 2
     End Sub
 End Class
