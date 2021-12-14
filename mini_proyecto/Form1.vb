@@ -3,7 +3,7 @@
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -13,8 +13,8 @@
         frmsuma.p1.Left = (frmsuma.Width - frmsuma.p1.Width) / 2
         frmsuma.p1.Top = (frmsuma.Height - frmsuma.p1.Height) / 2
         frmsuma.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
+
         FrmLookupcity.Close()
         frmencontrar.Close()
         frmdividir.Close()
@@ -26,8 +26,7 @@
         frmencontrar.paEncontrar.Left = (Me.Width - frmencontrar.paEncontrar.Width) / 2
         frmencontrar.paEncontrar.Top = (Me.Height - frmencontrar.paEncontrar.Height) / 2
         frmencontrar.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
         FrmLookupcity.Close()
         frmdividir.Close()
         frmsuma.Close()
@@ -40,8 +39,7 @@
         frmdividir.p1.Left = (frmdividir.Width - frmdividir.p1.Width) / 2
         frmdividir.p1.Top = (frmdividir.Height - frmdividir.p1.Height) / 2
         frmdividir.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
         frmencontrar.Close()
         FrmLookupcity.Close()
         frmsuma.Close()
@@ -53,8 +51,7 @@
         FrmLookupcity.p1.Left = (Me.Width - FrmLookupcity.p1.Width) / 2
         FrmLookupcity.p1.Top = (Me.Height - FrmLookupcity.p1.Height) / 2
         FrmLookupcity.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
         frmencontrar.Close()
         frmdividir.Close()
         frmsuma.Close()
@@ -66,8 +63,7 @@
         frmGetListByName.p1.Left = (Me.Width - frmGetListByName.p1.Width) / 2
         frmGetListByName.p1.Top = (Me.Height - frmGetListByName.p1.Height) / 2
         frmGetListByName.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
         frmencontrar.Close()
         FrmLookupcity.Close()
         frmsuma.Close()
@@ -80,15 +76,12 @@
         frmPorNombre.panel1.Left = (Me.Width - frmPorNombre.panel1.Width) / 2
         frmPorNombre.panel1.Top = (Me.Height - frmPorNombre.panel1.Height) / 2
         frmPorNombre.Show()
-        Label1.Hide()
-        Label2.Hide()
+        MainPanel.Visible = False
         frmencontrar.Close()
         FrmLookupcity.Close()
         frmsuma.Close()
         frmdividir.Close()
     End Sub
 
-    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
 
-    End Sub
 End Class

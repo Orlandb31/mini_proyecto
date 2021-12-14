@@ -251,6 +251,7 @@
     <Content Include="RefAssets\DevComponents.DotNetBar2.dll" />
     <Content Include="RefAssets\DevComponents.DotNetBar2.xml" />
     <Content Include="RefAssets\Guna.UI.dll" />
+    <Content Include="RefAssets\LogoUTP.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -12,7 +12,7 @@ Public Class frmPorNombre
 
 
             Dim JsonData As Object = Servicios.GetDataSetByName(Name)
-            result = JsonData
+            result = JsonData.tables(0)
             dtgrid.DataSource = result
 
             '' dt = TryCast(JsonConvert.DeserializeObject(JsonData, (GetType(DataTable))), DataTable)

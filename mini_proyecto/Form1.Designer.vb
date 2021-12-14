@@ -22,7 +22,6 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SumaDeDosEnterosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,29 +30,28 @@ Partial Class Form1
         Me.GetDataSetByNameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GetListByNameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LookupCityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.l3 = New Guna.UI.WinForms.GunaLabel()
+        Me.l2 = New Guna.UI.WinForms.GunaLabel()
+        Me.l1 = New Guna.UI.WinForms.GunaLabel()
         Me.MenuStrip1.SuspendLayout()
+        Me.MainPanel.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft JhengHei", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(404, 175)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(171, 24)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "MINI PROYECTO "
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(362, 220)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Label2.ForeColor = System.Drawing.Color.Silver
+        Me.Label2.Location = New System.Drawing.Point(377, 151)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(281, 100)
+        Me.Label2.Size = New System.Drawing.Size(165, 184)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "INTEGRANTES: CASTILLO,WENCERS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BORRERO,ORLANDO " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GREEN,ABRRAHAM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GUITIERREZ,LUIS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-1LS132-"
+        Me.Label2.Text = "Integrantes:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Castillo,Wencers" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Borrero, Orlando" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Green, Abraham" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gutierrez, Lu" &
+    "is" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     -1LS132-"
         '
         'MenuStrip1
         '
@@ -105,13 +103,69 @@ Partial Class Form1
         Me.LookupCityToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
         Me.LookupCityToolStripMenuItem.Text = "LookupCity"
         '
+        'MainPanel
+        '
+        Me.MainPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.MainPanel.Controls.Add(Me.PictureBox1)
+        Me.MainPanel.Controls.Add(Me.l3)
+        Me.MainPanel.Controls.Add(Me.l2)
+        Me.MainPanel.Controls.Add(Me.l1)
+        Me.MainPanel.Controls.Add(Me.Label2)
+        Me.MainPanel.Location = New System.Drawing.Point(0, 27)
+        Me.MainPanel.Name = "MainPanel"
+        Me.MainPanel.Size = New System.Drawing.Size(992, 561)
+        Me.MainPanel.TabIndex = 5
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.mini_proyecto.My.Resources.Resources.LogoUTP
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(825, 22)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 123)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
+        'l3
+        '
+        Me.l3.AutoSize = True
+        Me.l3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
+        Me.l3.ForeColor = System.Drawing.Color.Silver
+        Me.l3.Location = New System.Drawing.Point(475, 103)
+        Me.l3.Name = "l3"
+        Me.l3.Size = New System.Drawing.Size(67, 20)
+        Me.l3.TabIndex = 4
+        Me.l3.Text = "Proyecto"
+        '
+        'l2
+        '
+        Me.l2.AutoSize = True
+        Me.l2.Font = New System.Drawing.Font("Segoe UI", 18.0!)
+        Me.l2.ForeColor = System.Drawing.Color.Silver
+        Me.l2.Location = New System.Drawing.Point(476, 69)
+        Me.l2.Name = "l2"
+        Me.l2.Size = New System.Drawing.Size(66, 32)
+        Me.l2.TabIndex = 5
+        Me.l2.Text = "MINI"
+        '
+        'l1
+        '
+        Me.l1.AutoSize = True
+        Me.l1.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
+        Me.l1.ForeColor = System.Drawing.Color.Silver
+        Me.l1.Location = New System.Drawing.Point(361, 60)
+        Me.l1.Name = "l1"
+        Me.l1.Size = New System.Drawing.Size(134, 72)
+        Me.l1.TabIndex = 3
+        Me.l1.Text = "UTP"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(992, 600)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.MainPanel)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.IsMdiContainer = True
@@ -121,12 +175,13 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.MainPanel.ResumeLayout(False)
+        Me.MainPanel.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents SumaDeDosEnterosToolStripMenuItem As ToolStripMenuItem
@@ -135,4 +190,9 @@ Partial Class Form1
     Friend WithEvents GetDataSetByNameToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GetListByNameToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LookupCityToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MainPanel As Panel
+    Friend WithEvents l3 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents l2 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents l1 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
